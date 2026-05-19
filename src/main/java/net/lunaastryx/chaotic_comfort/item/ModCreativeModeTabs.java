@@ -15,7 +15,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ChaoticComfort.MOD_ID);
 
     public static final Supplier<CreativeModeTab> CHAOTIC_COMFORT_TAB = CREATIVE_MODE_TAB.register("chaotic_comfort_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOLDEN_NETHER_STAR.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ELECTRIC_GUITAR.get()))
                     .title(Component.translatable("creativetab.chaotic_comfort"))
                     .displayItems((itemDisplayParameters, output) -> {
 

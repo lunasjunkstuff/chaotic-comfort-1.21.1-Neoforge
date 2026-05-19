@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "chaotic_comfort:block/dev_smooth_basalt"
+  }
+}

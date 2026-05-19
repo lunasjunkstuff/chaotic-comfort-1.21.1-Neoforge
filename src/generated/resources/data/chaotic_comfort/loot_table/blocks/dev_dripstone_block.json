@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chaotic_comfort:dev_dripstone_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "chaotic_comfort:blocks/dev_dripstone_block"
+}

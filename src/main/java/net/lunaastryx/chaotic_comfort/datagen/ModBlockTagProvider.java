@@ -1,6 +1,7 @@
 package net.lunaastryx.chaotic_comfort.datagen;
 
 import net.lunaastryx.chaotic_comfort.ChaoticComfort;
+import net.lunaastryx.chaotic_comfort.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -37,5 +38,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(Blocks.OXIDIZED_CUT_COPPER)
                 .add(Blocks.WAXED_OXIDIZED_CUT_COPPER);
 
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.CALCITE_WALL.get())
+                .add(ModBlocks.DRIPSTONE_WALL.get())
+                .add(ModBlocks.SMOOTH_BASALT_WALL.get());
+
+        tag(BlockTags.STAIRS)
+                .add(ModBlocks.CALCITE_STAIRS.get())
+                .add(ModBlocks.DRIPSTONE_STAIRS.get())
+                .add(ModBlocks.SMOOTH_BASALT_STAIRS.get());
+
+        tag(BlockTags.SLABS)
+                .add(ModBlocks.CALCITE_SLAB.get())
+                .add(ModBlocks.DRIPSTONE_SLAB.get())
+                .add(ModBlocks.SMOOTH_BASALT_SLAB.get());
     }
 }

@@ -19,8 +19,23 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
 
-        //dropSelf(ModBlocks.idkbro.get())
+        dropSelf(ModBlocks.DEV_CALCITE.get());
+        dropSelf(ModBlocks.CALCITE_STAIRS.get());
+        add(ModBlocks.CALCITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CALCITE_SLAB.get()));
+        dropSelf(ModBlocks.CALCITE_WALL.get());
 
+        dropSelf(ModBlocks.DEV_DRIPSTONE_BLOCK.get());
+        dropSelf(ModBlocks.DRIPSTONE_STAIRS.get());
+        add(ModBlocks.DRIPSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DRIPSTONE_SLAB.get()));
+        dropSelf(ModBlocks.DRIPSTONE_WALL.get());
+
+        dropSelf(ModBlocks.DEV_SMOOTH_BASALT.get());
+        dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS.get());
+        add(ModBlocks.SMOOTH_BASALT_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SMOOTH_BASALT_SLAB.get()));
+        dropSelf(ModBlocks.SMOOTH_BASALT_WALL.get());
     }
 
     @Override

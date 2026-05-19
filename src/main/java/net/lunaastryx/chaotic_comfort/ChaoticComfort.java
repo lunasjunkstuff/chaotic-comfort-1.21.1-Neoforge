@@ -7,6 +7,7 @@ import net.lunaastryx.chaotic_comfort.item.ModItems;
 import net.lunaastryx.chaotic_comfort.sound.ModSounds;
 import net.lunaastryx.chaotic_comfort.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -65,6 +66,22 @@ public class ChaoticComfort {
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.SOLSTICE_MUSIC_DISC);
             event.accept(ModItems.ELEVENTH_HOUR_MUSIC_DISC);
+        }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(Blocks.CALCITE);
+            event.accept(ModBlocks.CALCITE_STAIRS);
+            event.accept(ModBlocks.CALCITE_SLAB);
+            event.accept(ModBlocks.CALCITE_WALL);
+
+            event.accept(Blocks.DRIPSTONE_BLOCK);
+            event.accept(ModBlocks.DRIPSTONE_STAIRS);
+            event.accept(ModBlocks.DRIPSTONE_SLAB);
+            event.accept(ModBlocks.DRIPSTONE_WALL);
+
+            event.accept(Blocks.SMOOTH_BASALT);
+            event.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
+            event.accept(ModBlocks.SMOOTH_BASALT_SLAB);
+            event.accept(ModBlocks.SMOOTH_BASALT_WALL);
         }
     }
 
