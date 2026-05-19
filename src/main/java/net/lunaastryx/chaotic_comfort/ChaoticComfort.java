@@ -1,11 +1,11 @@
 package net.lunaastryx.chaotic_comfort;
 
 import net.lunaastryx.chaotic_comfort.block.ModBlocks;
+import net.lunaastryx.chaotic_comfort.event.ModEvents;
 import net.lunaastryx.chaotic_comfort.item.ModCreativeModeTabs;
 import net.lunaastryx.chaotic_comfort.item.ModItems;
 import net.lunaastryx.chaotic_comfort.sound.ModSounds;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.item.CreativeModeTab;
+import net.lunaastryx.chaotic_comfort.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -43,6 +43,8 @@ public class ChaoticComfort {
         ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

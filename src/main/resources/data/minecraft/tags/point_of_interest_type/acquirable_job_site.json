@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "chaotic_comfort:guy_poi",
+      "required": false
+    }
+  ]
+}

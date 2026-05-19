@@ -20,8 +20,13 @@
   "item.chaotic_comfort.solstice_music_disc": "Music Disc",
   "item.chaotic_comfort.solstice_music_disc.desc": "Solstice - Nightmargin",
 
+  "painting.chaotic_comfort.victory.title": "Victory",
+  "painting.chaotic_comfort.victory.author": "duhrstloescher",
+
   "item.chaotic_comfort.puffer_armor_trim_smithing_template": "Puffer Trim Template",
   "trim_pattern.chaotic_comfort.puffer": "Puffer",
+
+  "entity.minecraft.villager.chaotic_comfort.guy": "Guy",
 
   "item.chaotic_comfort.electric_guitar": "Electric Guitar",
   "item.chaotic_comfort.baguette": "Baguette"
