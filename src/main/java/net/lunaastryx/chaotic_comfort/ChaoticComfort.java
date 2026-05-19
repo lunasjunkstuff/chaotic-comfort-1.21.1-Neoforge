@@ -60,6 +60,10 @@ public class ChaoticComfort {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.GOLDEN_NETHER_STAR);
         }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.SOLSTICE_MUSIC_DISC);
+            event.accept(ModItems.ELEVENTH_HOUR_MUSIC_DISC);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
