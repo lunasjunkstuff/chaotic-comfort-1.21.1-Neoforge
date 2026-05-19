@@ -1,0 +1,50 @@
+{
+  "pommes_rot_weiss": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:pommes_rot_weiss",
+        "stream": true
+      }
+    ]
+  },
+  "cure": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:cure",
+        "stream": true
+      }
+    ]
+  },
+  "romh": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:romh",
+        "stream": true
+      }
+    ]
+  },
+  "karma": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:karma",
+        "stream": true
+      }
+    ]
+  },
+  "solstice": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:solstice",
+        "stream": true
+      }
+    ]
+  },
+  "eleventh_hour": {
+    "sounds": [
+      {
+        "name": "chaotic_comfort:eleventh_hour",
+        "stream": true
+      }
+    ]
+  }
+}

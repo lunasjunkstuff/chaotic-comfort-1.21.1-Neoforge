@@ -1,0 +1,8 @@
+{
+  "comparator_output": 7,
+  "description": {
+    "translate": "item.chaotic_comfort.eleventh_hour_music_disc.desc"
+  },
+  "length_in_seconds":191,
+  "sound_event": "chaotic_comfort:eleventh_hour"
+}

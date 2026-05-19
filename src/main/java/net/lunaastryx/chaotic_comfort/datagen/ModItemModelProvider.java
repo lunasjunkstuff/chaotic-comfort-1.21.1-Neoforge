@@ -16,5 +16,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.GOLDEN_NETHER_STAR.get());
         basicItem(ModItems.PUFFER_SMITHING_TEMPLATE.get());
+        basicItem(ModItems.POMMES_ROT_WEISS_MUSIC_DISC.get());
+        basicItem(ModItems.CURE_MUSIC_DISC.get());
+        basicItem(ModItems.KARMA_MUSIC_DISC.get());
+        basicItem(ModItems.RULER_OF_MY_HEART_MUSIC_DISC.get());
+        basicItem(ModItems.ELEVENTH_HOUR_MUSIC_DISC.get());
+        basicItem(ModItems.SOLSTICE_MUSIC_DISC.get());
     }
 }
