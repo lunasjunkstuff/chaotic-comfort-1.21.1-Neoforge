@@ -1,8 +1,10 @@
 package net.lunaastryx.chaotic_comfort.item;
 
 import net.lunaastryx.chaotic_comfort.ChaoticComfort;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SmithingTemplateItem;
 import net.minecraft.world.item.SwordItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -13,6 +15,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> GOLDEN_NETHER_STAR = ITEMS.register("golden_nether_star",
             () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> PUFFER_SMITHING_TEMPLATE = ITEMS.register("puffer_armor_trim_smithing_template",
+            () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(ChaoticComfort.MOD_ID, "puffer")));
 
     public static final DeferredItem<AxeItem> ELECTRIC_GUITAR = ITEMS.register("electric_guitar",
             () -> new AxeItem(ModToolTiers.ELECTRIC_GUITAR, new Item.Properties().fireResistant().stacksTo(1)

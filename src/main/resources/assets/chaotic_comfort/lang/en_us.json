@@ -4,6 +4,10 @@
   "block.examplemod.example_block": "Example Block",
 
   "item.chaotic_comfort.golden_nether_star": "Golden Nether Star",
+
+  "item.chaotic_comfort.puffer_armor_trim_smithing_template": "Puffer Trim Template",
+  "trim_pattern.chaotic_comfort.puffer": "Puffer",
+
   "item.chaotic_comfort.electric_guitar": "Electric Guitar",
   "item.chaotic_comfort.baguette": "Baguette"
 

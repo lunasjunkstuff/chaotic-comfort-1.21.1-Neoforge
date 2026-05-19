@@ -27,5 +27,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.AXES)
                 .add(ModItems.ELECTRIC_GUITAR.get());
+
+        tag(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.PUFFER_SMITHING_TEMPLATE.get());
+
+
     }
 }

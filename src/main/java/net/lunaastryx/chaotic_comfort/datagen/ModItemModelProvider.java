@@ -15,8 +15,6 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
 
         basicItem(ModItems.GOLDEN_NETHER_STAR.get());
-
-        //handheldItem(ModItems.ELECTRIC_GUITAR.get());
-
+        basicItem(ModItems.PUFFER_SMITHING_TEMPLATE.get());
     }
 }

@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ELECTRIC_GUITAR);
                         output.accept(ModItems.BAGUETTE);
                         output.accept(ModItems.GOLDEN_NETHER_STAR);
+                        output.accept(ModItems.PUFFER_SMITHING_TEMPLATE);
 
                     })
 
